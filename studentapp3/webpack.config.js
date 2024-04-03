@@ -5,7 +5,7 @@ const Dotenv = require("dotenv-webpack");
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "https://jigneshstudentapp3.netlify.app",
+    publicPath: "https://jigneshstudentapp3.netlify.app/",
     path: path.resolve(__dirname, "build"),
   },
 
