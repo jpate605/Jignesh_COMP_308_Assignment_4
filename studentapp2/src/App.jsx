@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import StudentForm from "../../studentapp1/src/StudentForm";
+import StudentForm from "studentapp1/StudentForm";
 import "./index.css";
 
 const App = () => (
